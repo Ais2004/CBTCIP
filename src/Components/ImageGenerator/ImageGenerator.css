@@ -1,0 +1,39 @@
+
+.first{
+   margin:0;
+   padding:0;
+}
+
+.heading{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.second{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.second .ha{
+    padding:10px;
+    border:1 px solid black;
+    width:500px;
+    border-radius: 10px;
+}
+
+.second .submit{
+    padding:10px;
+    width:55px;
+}
+.second .submit:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+.result{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
