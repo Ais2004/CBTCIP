@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="Port.css">
+    <script src="https://kit.fontawesome.com/3502d6fdfa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p class="one">UI/UX Designer</p>
+            <h1 class="two">Hi,I'm <span style="color: red;">Aishwarya</span></p>
+            <h1 class="three">Perambuduri From India</p>
+        </div>
+      </div>
+    </div>
+    <!--...................about.....................................-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="background.png">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dignissimos facere ipsam sunt ratione ea iusto id quos, nam, sequi cum, accusamus aliquam. Officiis enim, animi esse perferendis possimus sapiente.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
+                                <li><span>Web Development</span><br>Web app development</li>
+                                <li><span>App Development</span><br>Building apps in mobile</li>  
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2018-2019</span><br>SSC,Vasavi High School</li>
+                                <li><span>2019-2021</span><br>PUC-1,RGUKT,Basar</li>
+                                <li><span>2021-2025</span><br>Btech,RGUKT,Basar</li>  
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!--...................My services.........................-->
+    <div id="service">
+      <div class="container">
+        <h1>My Services</h1>
+         <div class="service-list">
+            <div>
+                <i class="fa-light fa-code"></i>
+                <h2>web design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel temporibus tempora aut, architecto rerum corrupti maxime voluptatum animi, aspernatur iure sequi molestiae minima autem qui vero est nemo blanditiis repellendus!</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>ui/ux design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel temporibus tempora aut, architecto rerum corrupti maxime voluptatum animi, aspernatur iure sequi molestiae minima autem qui vero est nemo blanditiis repellendus!</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>app design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel temporibus tempora aut, architecto rerum corrupti maxime voluptatum animi, aspernatur iure sequi molestiae minima autem qui vero est nemo blanditiis repellendus!</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+     </div>
+    </div>
+    <script src="Port.js"></script>
+    <!---------------portfolio----------------------------------------------------->
+    <div id="portfolio"></div>
+     <div class="container">
+        <h1>My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                 <img src="C:\Users\OM\OneDrive\Desktop\JDK and VS code\work-1.png">
+                 <div class="layer">
+                    <h3>Amazon</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum minus iure in quaerat at vel omnis, tenetur distinctio, qui optio enim natus repellat quibusdam libero officia adipisci facere. Reprehenderit?</p>
+                 </div>
+            </div>
+            <div class="work"> <img src="C:\Users\OM\OneDrive\Desktop\JDK and VS code\work-2.png">
+                <div class="layer">
+                    <h3>To-Do</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum minus iure in quaerat at vel omnis, tenetur distinctio, qui optio enim natus repellat quibusdam libero officia adipisci facere. Reprehenderit?</p>
+                 </div>
+            </div>
+            <div class="work"> <img src="C:\Users\OM\OneDrive\Desktop\JDK and VS code\work-3.png">
+                <div class="layer">
+                    <h3>Rock Paper Scissor</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum minus iure in quaerat at vel omnis, tenetur distinctio, qui optio enim natus repellat quibusdam libero officia adipisci facere. Reprehenderit?</p>
+                 </div>
+            </div>
+        </div>
+     </div>
+    <!--------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aish@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9133982004</p>
+                <div class="icons">
+                <a><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-twitter"></i></a>
+                <a><i class="fa-brands fa-linkedin"></i></a>
+                <a><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a class="down">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name:"Name" placeholder="First Name">
+                        <input type="email" name="Email" placeholder="Email">
+                        <textarea name="message" rows="6" placeholder="Enter Message"></textarea>
+                        <button class="button2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(i of tablinks){
+                i.classList.remove("active");
+            }
+            for(i of tabcontents){
+                i.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
